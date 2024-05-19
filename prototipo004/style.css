@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+}
+.card{
+    width: 350px;
+    background-color: rgba(48, 48, 48, 0.61);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.image{
+    background: url('https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-position: center left -50px;
+    background-size: 240px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+}
+.card h1{
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+.card h2{
+    font-size: 0.8em;
+    color: rgb(123, 212, 50);
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.card p{
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.84em;
+}
+.link-box{
+    font-size: 15px;   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.link{
+    text-align: center;
+    display: block;
+    background-color: rgb(58, 58, 58);
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.link:hover{
+    background-color: rgb(139, 236, 60);
+    color: rgba(48, 48, 48, 0.842);;
+}

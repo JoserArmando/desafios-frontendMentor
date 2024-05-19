@@ -1,0 +1,45 @@
+
+header{
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+    gap: 20px;
+}
+header ul {
+    align-items: center;
+    gap: 20px;
+}
+header a{
+    color: black;
+    padding: 100% 0;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+#btn-blue a{
+    color: blue;
+}
+
+.menu-toggle{
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+/* Menu Dropdown*/
+.options-dropdown {
+    margin-top: 20px;
+    position: absolute;
+    display: none;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+}
+.options-dropdown a{
+    padding: 10px 10px;
+    display: block;
+}
+.dropdown:hover .options-dropdown{
+   display: block;
+   background: white;
+}

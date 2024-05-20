@@ -1,0 +1,45 @@
+@media screen and (min-width: 570px){
+    .card{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 768px){
+    .card{
+        width: 500px
+    }
+    .texto .info h3{
+        font-size: 1em;
+    }
+    .texto .info h1{
+        font-size: 2em;
+        line-height: 33px;
+    }
+    .texto .info p{
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .card{
+        flex-direction: row;
+        width: 650px;
+        height: 470px;
+    }
+    .card img{
+        display: none;
+    }
+    .card .desktop-img{
+       display: block;
+       width: 50%;
+       object-fit: cover;
+    }
+    .texto{
+        padding: 20px 35px;
+    }
+    .texto .info p{
+        margin: 30px 0;
+    }
+
+}
+

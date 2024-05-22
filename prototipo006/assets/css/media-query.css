@@ -1,10 +1,10 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .container{
         padding: 50px 0;
     }
     .container header{
         border-radius: 20px 20px 0 0;
-        width: 570px;
+        width: 768px;
         padding: 30px;
         margin: auto;
     }
@@ -13,7 +13,7 @@
     }
     main{
         border-radius: 0 0 20px 20px;
-        width: 570px;
+        width: 768px;
     }
     div{
         margin: 50px 0;

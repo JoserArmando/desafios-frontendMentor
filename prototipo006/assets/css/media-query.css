@@ -1,0 +1,41 @@
+@media screen and (min-width: 600px) {
+    .container{
+        padding: 50px 0;
+    }
+    .container header{
+        border-radius: 20px 20px 0 0;
+        width: 580px;
+        padding: 20px;
+        margin: auto;
+    }
+    header img{
+        border-radius: 10px;
+    }
+    main{
+        border-radius: 0 0 20px 20px;
+        width: 580px;
+        padding: 0 50px 0px;
+    }
+    div{
+        margin: 50px 0;
+    }
+    div.title{
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    .preparação h3{
+        font-size: 1.4em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    ul li, ol li{
+        font-size: 1.2em;
+        padding-top: 15px;
+    }
+    tr{
+        font-size: 1.2em;
+    }
+}

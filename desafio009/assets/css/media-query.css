@@ -1,0 +1,72 @@
+:root{
+    /*## Colors*/
+
+    /*### Primary*/
+
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /*## Gradients*/
+
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+
+    /*### Neutral*/
+
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+
+    /*## font femaily*/
+
+    --font: "Hanken Grotesk", sans-serif;
+    /*Weights: 500, 700, 800*/
+
+}
+@media screen and (min-width: 700px){
+    .container{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        display: flex;
+        max-width: 700px;
+        border-radius: 30px;
+        box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.1);
+    }
+    .box-resultado{
+        width: 320px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .resultado__numero{
+        width: 180px;
+        height: 180px;
+    }
+    .comentario__titulo{
+        margin-bottom: 15px;
+        font-size: 1.9em;
+    }
+    .box-sumario{
+        width: 300px;
+    }
+    .sumario__titulo{
+        font-size: 1.5em;
+    }
+    .sumario__button{
+        margin: 30px auto;
+    }
+    .sumario__button:hover{
+        background-color: var(--Light-royal-blue);
+    }
+}

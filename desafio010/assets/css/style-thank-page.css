@@ -13,7 +13,7 @@
     .content{
         width: 360px;
         background-color: var(--Dark-Blue);
-        padding: 30px;
+        padding: 40px 30px;
         border-radius: 20px;
         text-align: center;
     }

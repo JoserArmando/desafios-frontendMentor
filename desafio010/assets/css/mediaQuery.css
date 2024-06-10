@@ -1,0 +1,8 @@
+@media screen and (min-width: 400px) {
+    .content{
+        width: 390px;
+    }
+    .titulo{
+        font-size: 27px;
+    }
+}

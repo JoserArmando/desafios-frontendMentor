@@ -1,0 +1,44 @@
+:root{
+    /*## Colors*/
+    
+    /*### Primary*/
+    --Orange: hsl(25, 97%, 53%);
+    
+    /*### Neutral*/
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    }
+    .content{
+        width: 360px;
+        background-color: var(--Dark-Blue);
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .mensagem{
+        display: inline-block;
+        color: var(--Orange);
+        background-color: #273139;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    .valor{
+        color: var(--Orange);
+        font-weight: 400;
+    }
+    .titulo{
+        color: var(--White);
+        font-weight: 700;
+        padding: 15px 0;
+        font-size: 25px;
+    }
+    .texto{
+        color: var(--Light-Grey);
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+    }

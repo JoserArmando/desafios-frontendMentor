@@ -1,0 +1,73 @@
+:root{
+/*## Colors*/
+
+/*### Primary*/
+--Orange: hsl(25, 97%, 53%);
+
+/*### Neutral*/
+--White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+.content{
+    width: 360px;
+    background-color: var(--Dark-Blue);
+    padding: 30px;
+    border-radius: 20px;
+}
+.estrela{
+    background-color: #273139;
+    padding: 15px;
+    border-radius: 50%;
+}
+.titulo{
+    color: var(--White);
+    font-weight: 700;
+    padding: 15px 0;
+    font-size: 25px;
+}
+.texto{
+    color: var(--Light-Grey);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.box-opitions{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.box-opitions li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Light-Grey);
+    background-color: #273139;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-weight: 700;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+.box-opitions li:hover{
+    background-color: var(--Orange);
+    color: var(--Dark-Blue);
+    cursor: pointer;
+}
+.submit{
+    background-color: var(--Orange);
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: var(--White);
+    cursor: pointer;
+}
+

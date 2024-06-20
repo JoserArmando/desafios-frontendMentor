@@ -1,0 +1,55 @@
+@media screen and (min-width: 1024px){
+    
+    .container{
+        display: flex;
+        justify-content: end;
+        gap: 10vw;
+    }
+    .content{
+        max-width: 430px;
+    }
+    .cabecalho{
+        height: 18vh;
+        display: flex;
+        align-items: end;
+    }
+    .cabecalho__logo{
+        width: 180px;
+    }
+    .conteudo{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conteudo__titulo{
+        font-size: 4em;
+        line-height: 75px;
+        letter-spacing: 20px;
+    }
+    .conteudo__img{
+     display:none;   
+    }
+    .conteudo__box-email{
+        width: 100%;
+        margin: 30px 0;
+        height: 50px;
+    }
+    .img{
+        display: block;
+        height: 100vh;
+    }
+    .conteudo__texto, .conteudo__titulo{
+        text-align: left;
+        padding: 0;
+    }
+    .box-email__img{
+        padding: 20px 45px;
+        height: 60px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .container{
+        gap: 15vw;
+    }
+}

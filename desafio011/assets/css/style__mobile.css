@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+/* --> Colors*/
+/* --> Primary*/
+--Desaturated-Red: hsl(0, 36%, 70%);
+--Soft-Red: hsl(0, 93%, 68%);
+
+/* --> Neutral*/
+--Dark-Grayish-Red: hsl(0, 6%, 24%);
+
+/* --> /* --> Gradients */
+  --Linear1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --Linear2: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+/* --> font*/
+--font: "Josefin Sans", sans-serif;
+    /*--> Weights: 300, 400, 600*/
+}
+
+.cabecalho{
+    padding: 30px 0;
+}
+.cabecalho__logo{
+    width: 100px;
+}
+
+
+.conteudo__img{
+    width: 100%;
+}
+.conteudo__titulo{
+    margin: 55px 0 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--Desaturated-Red);
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 10px;
+}
+.conteudo__titulo strong{
+    color: var(--Dark-Grayish-Red);
+    font-weight: 600;
+}
+.conteudo__texto{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px;
+    color: var(--Desaturated-Red);
+    line-height: 25px;
+}
+.conteudo__box-email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 90%;
+    overflow: hidden;
+
+    margin: 20px auto 0;
+    border: 1px solid var(--Desaturated-Red);
+    border-radius: 100px;
+}
+.box_email__input{
+    width: 100%; 
+    height: 100%;
+    color: var(--Desaturated-Red);
+    border: none;
+    padding: 0 15px 0 20px;
+    background-color: transparent;
+    font-size: 1em;
+}
+.box_email__input:focus{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: transparent;
+  }
+.box_email__input::placeholder {
+    color: var(--Desaturated-Red);
+  }
+  
+  .box_email__input:-ms-input-placeholder { 
+    color: var(--Desaturated-Red);
+  }
+  
+  .box_email__input::-ms-input-placeholder { 
+    color: var(--Desaturated-Red);
+  }
+  .box_email__input::-webkit-input-placeholder { 
+    color: var(--Desaturated-Red);
+  }
+.box-email__alert{
+    margin-right: 10px;
+    display: none;
+}
+
+.box-email__img{
+    height: 100%;
+    padding: 13px 26px;
+    border-radius: 60px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+.box-email__img:hover{
+    background: hsl(0, 80%, 86%);
+}
+.text-alert{
+    margin-top: -20px;
+    margin-left: 15px;
+    color: var(--Desaturated-Red);
+    display: none;
+}
+.img{
+    display: none;
+}
